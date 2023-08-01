@@ -45,6 +45,13 @@
             color: gray;
             vertical-align: bottom;
         }
+
+        input{
+            border: none;
+            border-radius: 5px;
+            background-color: #dedede;
+            padding: 6px;
+        }
         </style>
         <title>Feedback-Formular</title>
     </head>
