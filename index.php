@@ -53,7 +53,7 @@
             padding: 6px;
         }
         </style>
-        <title>Feedback-Formular</title>
+        <title>Feedback Formular</title>
     </head>
 
     <img src="Lichtstreifen 29.1.2021.jpg" style="z-index: -100;">
@@ -81,8 +81,6 @@
 </div>
 </body>
 
-<!-- <div class="g-recaptcha" data-sitekey="6LdpNnIjAAAAAP90V6rCGm1-vxNJDJK8r3ynBVlP"></div>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
 <head>
     <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdpNnIjAAAAAP90V6rCGm1-vxNJDJK8r3ynBVlP">
@@ -92,10 +90,6 @@
         const token = await grecaptcha.enterprise.execute('6LdpNnIjAAAAAP90V6rCGm1-vxNJDJK8r3ynBVlP', {
             action: 'homepage'
         });
-        // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
-        // reCAPTCHA Enterprise to the end user's browser.
-        // This token must be validated by creating an assessment.
-        // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
     });
     </script>
     <script>
